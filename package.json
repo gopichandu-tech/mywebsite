@@ -2,14 +2,20 @@
   "name": "project-a-practial",
   "version": "0.1.0",
   "private": true,
+<<<<<<< HEAD
 
+=======
+>>>>>>> 92e994f5da8f315a979f7877354abb479bde6a49
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "file-saver": "^2.0.5",
+<<<<<<< HEAD
     "gh-pages": "^4.0.0",
+=======
+>>>>>>> 92e994f5da8f315a979f7877354abb479bde6a49
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",
@@ -23,7 +29,10 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+<<<<<<< HEAD
 
+=======
+>>>>>>> 92e994f5da8f315a979f7877354abb479bde6a49
   "eslintConfig": {
     "extends": [
       "react-app",
