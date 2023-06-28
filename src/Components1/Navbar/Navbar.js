@@ -4,7 +4,7 @@ import {Link, useNavigate} from "react-router-dom";
 // import { saveAs } from "file-saver";
 
 function Navbar() {
-  const [click,setClick] = useState(true);
+  const [click,setClick] = useState(false);
   const handleClick = () => setClick(!click);
   const navigate = useNavigate();
   // const closeMobileMenu = () => setClick(false);
