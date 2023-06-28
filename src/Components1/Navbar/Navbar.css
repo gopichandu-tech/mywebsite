@@ -246,7 +246,7 @@
   
  }
 
- @media (max-width:350px) {
+ @media (max-width:320px) {
 
   .nav-container .logo {
     font-size: 30px;
@@ -266,6 +266,59 @@
     font-size: 10px;
   }
   
+ }
+
+ @media (max-width:300px) {
+
+  .hamburger {
+    position: absolute;
+    top: 20px;
+    right:5px;
+  }
+
+ }
+
+
+ @media (max-width:190px) {
+
+  .hamburger {
+    position: absolute;
+    top: 20px;
+    right:5px;
+    white-space: pre-line;
+    font-size: 30px;
+
+
+  }
+
+  .nav-container .logo {
+    font-size: 25px;
+    position: absolute;
+    top: 20px;
+    left: 2px;
+  }
+
+  /* .left-container */
+
+  .nav-container .left-container {
+    padding-right: 5px;
+    margin-left: 55px;
+  }
+  .nav-container .left-container .heading {
+    font-size: 15px;
+  }
+
+  .nav-container .left-container .sub-heading {
+    font-size: 8px;
+  }
+
+  .logo {
+    font-size: 25px;
+  }
+
+
+  
+
  }
 
 

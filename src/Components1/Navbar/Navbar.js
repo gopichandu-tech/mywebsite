@@ -30,7 +30,7 @@ function Navbar() {
 
       <Link to='/' className='nav-links' >Home</Link>
       <Link to='/projects' className='nav-links' >Projects</Link>
-      <a href='/Resume/Resume.pdf' download className='nav-links' >Resume</a>
+      <a href='/Resume/MyResume.pdf' download className='nav-links' >Resume</a>
       {/* <Link to='/resume'  href='/Resume/Resume.pdf' download target='_blank'  className='nav-links' >Resume</Link> */}
 
       

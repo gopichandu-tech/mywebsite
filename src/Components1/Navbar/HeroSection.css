@@ -54,7 +54,7 @@ html {
 .container {
     width: 90%;
     height: 100%;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
 
     display: flex;
@@ -103,9 +103,42 @@ html {
 
 @media only screen and (max-width: 300px) {
 
-    html{
-        font-size: 10px;
+    /* html{
+        font-size: 15px;
+    } */
+
+
+    .container .info h1 {
+        font-size: 25px;
+        margin-bottom: 1rem;
     }
     
+    .container .info h2 {
+        font-size: 15px;
+        margin-bottom: 2rem;
+    
+    }
+    
+    .container .info p {
+        font-size: 15px;
+        max-width: 65%;
+    
+        /* margin: 0 auto; */
+        /* margin-right: 0; */
+        /* margin-left: auto; */
+        
+    }
+    
+}
+
+
+@media only screen and (max-width: 300px) {
+    html {
+        font-size: 15px;
+    }
+
+    .info p {
+        width: 80%;
+    }
 }
 
