@@ -1,6 +1,6 @@
 import React from 'react'
 import './Projects.css'
-import restCountries from './Images/restcountries.jpg'
+import restCountries from './Images/world_map.png'
 import EPC from './Images/estimated_power_check.png'
 
 function Projects() {
