@@ -7,14 +7,7 @@ function Navbar() {
   const [click,setClick] = useState(false);
   const handleClick = () => setClick(!click);
   const navigate = useNavigate();
-  // const closeMobileMenu = () => setClick(false);
-
-  // const saveFile = () => {
-  //   saveAs(
-  //     "/public/Images/Resume.pdf",
-  //     "Resume.pdf"
-  //   );
-  //}
+ 
   return (
    <div className='nav-container' >
     <div className='logo'><i class="fa-brands fa-accusoft"></i></div>
@@ -33,9 +26,6 @@ function Navbar() {
       <a href='/Resume/MyResume.pdf' download className='nav-links' >Resume</a>
       {/* <Link to='/resume'  href='/Resume/Resume.pdf' download target='_blank'  className='nav-links' >Resume</Link> */}
 
-      
-        
-   
      </div>
 
      {/* <div className="hamburger"><Link to='/' onClick={handleClick}><i class="fa-solid fa-bars"></i></Link></div> */}
