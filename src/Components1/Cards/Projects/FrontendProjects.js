@@ -18,7 +18,7 @@ function FrontendProjects() {
         </div>
 
         <div className='project searchforjobs'>
-            <a href='https://rest-country-six.vercel.app/'><img src={project2} alt='restCountries'/></a>
+            <a href='https://search-for-jobs-frontend.vercel.app/'><img src={project2} alt='restCountries'/></a>
             <div className='links'>
                 <div id='title'><p>SearchForJobs</p></div>
                 <div id='github'><a href='https://github.com/gopichandu-tech/searchForJobs_frontend'>Github</a></div>
