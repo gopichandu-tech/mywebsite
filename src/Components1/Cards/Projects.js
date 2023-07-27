@@ -1,12 +1,24 @@
 import React from 'react'
 import './Projects.css'
-import restCountries from './Images/world_map.png'
-import EPC from './Images/estimated_power_check.png'
+// import restCountries from './Images/world_map.png'
+// import EPC from './Images/estimated_power_check.png'
+import FrontendProjects from './Projects/FrontendProjects'
+import PythonProjects from './Projects/PythonProjects'
 
 function Projects() {
   return (
-    <div className='projects'>
-      <div className='rest-countries'>
+    <div>
+        <FrontendProjects />
+        <PythonProjects />
+    </div>
+    
+  )
+}
+
+export default Projects
+
+/*
+<div className='rest-countries'>
         <a href='https://rest-country-six.vercel.app/'><img src={restCountries} alt='restCountries'/></a>
         <div className='links'>
           <div id='title'><p>RestCountries</p></div>
@@ -23,9 +35,4 @@ function Projects() {
         </div>
         <div id='discreption'><p>This project  helps us to find the estimated power consumption of an specific software application which is running behind your device.</p></div>
       </div>
-    </div>
-    
-  )
-}
-
-export default Projects
+ */
