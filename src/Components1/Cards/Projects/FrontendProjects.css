@@ -8,6 +8,7 @@
 .projects {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     color: #A5D7E8;
 
 }
@@ -44,6 +45,11 @@
 
 /*Media Queries*/
 @media  (max-width: 700px){
+    .forntend-project-heading{
+        color: #A5D7E8;
+        margin: 15px 0;
+        text-align: center;
+    }
     .projects {
         display: flex;
         flex-direction: column;
@@ -62,6 +68,11 @@
 }
 
 @media  (max-width: 500px){
+    .forntend-project-heading{
+        color: #A5D7E8;
+        margin: 15px 0;
+        text-align: center;
+    }
     .projects {
         display: flex;
         flex-direction: column;
@@ -79,6 +90,11 @@
 }
 
 @media  (max-width: 410px){
+    .forntend-project-heading{
+        color: #A5D7E8;
+        margin: 15px 0;
+        text-align: center;
+    }
     .projects {
         display: flex;
         flex-direction: column;
@@ -96,6 +112,11 @@
 }
 
 @media  (max-width: 310px){
+    .forntend-project-heading{
+        color: #A5D7E8;
+        margin: 15px 0;
+        text-align: center;
+    }
     .projects {
         display: flex;
         flex-direction: column;
@@ -113,6 +134,11 @@
 }
 
 @media  (max-width: 220px){
+    .forntend-project-heading{
+        color: #A5D7E8;
+        margin: 15px 0;
+        text-align: center;
+    }
     .projects {
         display: flex;
         flex-direction: column;
@@ -130,6 +156,11 @@
 }
 
 @media  (max-width: 180px){
+    .forntend-project-heading{
+        color: #A5D7E8;
+        margin: 15px 0;
+        text-align: center;
+    }
     .projects {
         display: flex;
         flex-direction: column;
@@ -157,6 +188,11 @@
 
 
 @media  (max-width: 160px){
+    .forntend-project-heading{
+        color: #A5D7E8;
+        margin: 15px 0;
+        text-align: center;
+    }
     .projects {
         display: flex;
         flex-direction: column;

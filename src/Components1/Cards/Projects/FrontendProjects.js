@@ -6,7 +6,7 @@ import project2 from '../Images/frontend_project2.png'
 function FrontendProjects() {
   return (
     <div>
-      <h1 className='forntend-project-heading'>Frontend Projects</h1>
+      <h1 className='forntend-project-heading'>Frontend Development</h1>
       <div className='projects'>
         <div className='project rest-countries'>
             <a href='https://rest-country-six.vercel.app/'><img src={project1} alt='restCountries'/></a>

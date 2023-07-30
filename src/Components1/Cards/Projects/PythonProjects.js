@@ -7,7 +7,7 @@ import ML2 from '../Images/ml2.png'
 function PythonProjects() {
   return (
     <div>
-      <h1 className='python-project-heading'>Machine Learning and Python projects</h1>
+      <h1 className='python-project-heading'>Machine Learning and Python</h1>
       <div className='projects'>
       <div className='project Domestic violence in Colombia'>
             <a href='https://github.com/gopichandu-tech/Domestic-violence-in-Columbia'><img src={ML1} alt='restCountries'/></a>
