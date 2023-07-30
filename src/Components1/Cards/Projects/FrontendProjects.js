@@ -31,5 +31,4 @@ function FrontendProjects() {
    
   )
 }
-
 export default FrontendProjects

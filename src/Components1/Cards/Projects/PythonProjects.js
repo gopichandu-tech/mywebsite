@@ -1,12 +1,31 @@
 import React from 'react'
 import './PythonProjects.css'
 import project1 from '../Images/python_project1.png'
+import ML1 from '../Images/ml1.png'
+import ML2 from '../Images/ml2.png'
 
 function PythonProjects() {
   return (
     <div>
-      <h1 className='python-project-heading'>Python projects</h1>
+      <h1 className='python-project-heading'>Machine Learning and Python projects</h1>
       <div className='projects'>
+      <div className='project Domestic violence in Colombia'>
+            <a href='https://github.com/gopichandu-tech/Domestic-violence-in-Columbia'><img src={ML1} alt='restCountries'/></a>
+            <div className='links'>
+            <div id='title'><p>Domestic violence in Colombia</p></div>
+            <div id='github'><a href='https://github.com/gopichandu-tech/Domestic-violence-in-Columbia'>Github</a></div>
+            </div>
+            <div id='discreption'><p>The data file is taken form the kaggle (Domestic violence in Colombia) and  the data is cleaned with suitable methods before it is visualy analysed and the dataset is trained with suitable ml alogrithms.</p></div>
+        </div>
+
+        <div className='project gate_2021_analysis'>
+            <a href='https://github.com/gopichandu-tech/Gate_2021_analysis'><img src={ML2} alt='restCountries'/></a>
+            <div className='links'>
+            <div id='title'><p>Gate 2021 results analysis</p></div>
+            <div id='github'><a href='https://github.com/gopichandu-tech/Gate_2021_analysis'>Github</a></div>
+            </div>
+            <div id='discreption'><p>The data file is taken form the kaggle (Gate 2021 results Analysis) and  the data is cleaned with suitable methods before it is visualy analysed and the dataset is trained with suitable ml alogrithms.</p></div>
+        </div>
         <div className='project estimated_power_consumtion'>
             <a href='https://github.com/gopichandu-tech/power_consumption_py'><img src={project1} alt='restCountries'/></a>
             <div className='links'>
