@@ -16,8 +16,8 @@ function Footer() {
         </div>
 
         <div className='footer-icons'>
-            <Link to='/'><i class="fa-brands fa-facebook"></i></Link>
-            <Link to='/'><i class="fa-brands fa-instagram"></i></Link>
+            <a href='https://www.linkedin.com/in/gopi-chandu-8387921a4/'><i class="fa-brands fa-linkedin"></i></a>
+            <a href='https://github.com/gopichandu-tech'><i class="fa-brands fa-github"></i></a>
             <Link to='/'><i class="fa-solid fa-envelope"></i></Link>
         </div>
 

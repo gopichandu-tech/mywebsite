@@ -13,9 +13,9 @@ function HeroSection() {
                 <p >
                   <Typical 
                    className='discription'
-                  steps={["A Frontend Developer and Data Science enthusiast with keen experience in designing and maintaining responsive websites as well as data analysis in the modern workplace.",1000]}
-                  loop={1}
-                  wrapper='p'
+                   steps={["A Frontend Developer and Data Science enthusiast with keen experience in designing and maintaining responsive websites as well as data analysis in the modern workplace.",1000]}
+                   loop={2}
+                   wrapper='p'
                 />
                     
                   
