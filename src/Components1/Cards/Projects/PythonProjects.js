@@ -1,19 +1,22 @@
 import React from 'react'
 import './PythonProjects.css'
-import digit from '../Images/digit.png'
+import NLP_project1 from '../videos/NLP_Project1_video.mp4'
 
 function PythonProjects() {
   return (
     <div>
-      <h1 className='python-project-heading'>Machine Learning </h1>
+      <h1 className='python-project-heading'>Natural Language Processing</h1>
       <div className='projects'>
-      <div className='project Digit Recognition'>
-            <a href='https://github.com/gopichandu-tech/Digit_Recognition_ML'><img src={digit} alt='restCountries'/></a>
+      <div className='project Duplicate Question Pairs'>
+            <video controls className="video-player"><source src={NLP_project1} type="video/mp4"/></video>
             <div className='links'>
-            <div id='title'><p>Digit Recognition</p></div>
-            <div id='github'><a href='https://github.com/gopichandu-tech/Digit_Recognition_ML'>Github</a></div>
+            <div id='title'><p>Identifying Duplicate Pairs</p></div>
+            <div id='github'><a href='https://github.com/gopichandu-tech/DuplicateQuestions'>Github</a></div>
             </div>
-            <div id='discreption'><p>The data set is analysed in two different forms first the dataset is trained and tested using k-nearest neighbours algrorithm alone and secondly the dimensions/columns of the dataset is reduced using principle component analysis and then k-nearest neighbours algorithm is used for analysis</p></div>
+            <div className='links2'>
+              <div id='visit-website'><a href='https://gopichandu-tech-duplicatequestions-main-il2g6w.streamlit.app/'><p>Visit Website</p></a></div>
+            </div>
+            <div id='discreption'><p>An key product philosophy is that there should be a single question page for each logically distinct question, which helps with the challenge of spotting duplicate questions. The questions "What is the most populous state in the USA?" and "Which state in the United States has the most people?" are two examples of queries that shouldn't be answered individually because they have the same goal in mind. Knowledge-sharing is more effective when there is a canonical page for each logically distinct query.</p></div>
       </div>
       </div>
       

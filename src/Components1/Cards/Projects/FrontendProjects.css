@@ -13,6 +13,11 @@
 
 }
 
+#title {
+    color: #fff;
+    cursor: pointer;
+}
+
 .projects .project {
     width: 300px;
     margin: 15px;
@@ -20,7 +25,7 @@
 }
 
 .projects .project img{
-    width: 300px;
+    width: 400px;
     height: 200px;
 }
 
