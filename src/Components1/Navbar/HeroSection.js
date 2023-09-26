@@ -13,7 +13,7 @@ function HeroSection() {
                 <p >
                   <Typical 
                    className='discription'
-                   steps={["Junior NLP Engineer and Frontend Developer experience in developing and implementing NLP-based systems to improve accuracy, reduce processing time, and increase customer engagement, and developing user-friendly websites. Passionate about learning and development with a desire to apply skills on larger development. Eager to tackle more complex problems and continue to find ways to maximize user efficiency..",1000]}
+                   steps={["Junior NLP Engineer and Frontend Developer experience in developing and implementing NLP-based systems and developing user-friendly websites. Eager to tackle more complex problems and continue to find ways to maximize user efficiency..",1000]}
                    loop={2}
                    wrapper='p'
                 />
