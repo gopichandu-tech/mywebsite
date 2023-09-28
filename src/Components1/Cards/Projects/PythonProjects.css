@@ -25,7 +25,12 @@
 
 .projects .project .video-player{
     width: 400px;
-    height: 300px;
+    height: 200px;
+}
+
+.projects .project a .python-image{
+    width: 400px;
+    height: 200px;
 }
 
 .projects .project  .links{
@@ -83,6 +88,12 @@
         width: 350px;
     }
 
+    .projects .project a .python-image {
+        width: 350px;
+    }
+
+    
+
 }
 
 @media  (max-width: 500px){
@@ -105,6 +116,10 @@
         width: 350px;
     }
 
+    .projects .project a .python-image {
+        width: 350px;
+    }
+
 }
 
 @media  (max-width: 410px){
@@ -124,7 +139,11 @@
     }
 
     .projects .project .video-player {
-        width: 290px;
+        width: 250px;
+    }
+
+    .projects .project a .python-image {
+        width: 250px;
     }
 
 }
@@ -146,6 +165,10 @@
     }
 
     .projects .project .video-player {
+        width: 200px;
+    }
+
+    .projects .project a .python-image {
         width: 200px;
     }
 
@@ -171,6 +194,10 @@
         width: 160px;
     }
 
+    .projects .project a .python-image {
+        width: 160px;
+    }
+
 }
 
 @media  (max-width: 180px){
@@ -190,6 +217,10 @@
     }
 
     .projects .project .video-player {
+        width: 150px;
+    }
+
+    .projects .project a .python-image {
         width: 150px;
     }
 
@@ -228,6 +259,10 @@
     }
 
     .projects .project .video-player {
+        width: 130px;
+    }
+
+    .projects .project a .python-image {
         width: 130px;
     }
 
